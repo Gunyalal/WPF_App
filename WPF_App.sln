@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_App", "WPF_App\WPF_App.csproj", "{9D4303E0-0E56-418C-B3FF-2D3F7586AC48}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D17F849C-E615-419B-9334-7456378C9643} = {D17F849C-E615-419B-9334-7456378C9643}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLibrary", "C:\Users\TheSl\source\repos\WcfServiceLibrary\WcfServiceLibrary\WcfServiceLibrary.csproj", "{D17F849C-E615-419B-9334-7456378C9643}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D4303E0-0E56-418C-B3FF-2D3F7586AC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4303E0-0E56-418C-B3FF-2D3F7586AC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4303E0-0E56-418C-B3FF-2D3F7586AC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4303E0-0E56-418C-B3FF-2D3F7586AC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17F849C-E615-419B-9334-7456378C9643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17F849C-E615-419B-9334-7456378C9643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17F849C-E615-419B-9334-7456378C9643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17F849C-E615-419B-9334-7456378C9643}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EA2A50F-DAAC-4AD6-ACF8-2E8508EFC9E3}
+	EndGlobalSection
+EndGlobal
