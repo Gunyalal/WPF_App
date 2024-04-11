@@ -22,10 +22,10 @@ namespace WcfServiceLibrary
         public List<Dogovor> GetData()
         {
             // Прописываю путь к базе, открываю соединение и запрашиваю данные из таблицы rdogovor
-            String connectionString = "Server=localhost;Database=master;Trusted_Connection=True;TrustServerCertificate=True";
+            String connectionString = "Server=bdserv,1433;Database=test_task;Trusted_Connection=True;TrustServerCertificate=True";
             SqlConnection SQLC = new SqlConnection(connectionString);
             SQLC.Open();
-            String SQLQuery = "select * from rdogovor;";
+            String SQLQuery = "select * from rdogovor order by dog_no;";
             SqlCommand SQLCommand = new SqlCommand(SQLQuery, SQLC);
             SqlDataReader SQLReader = SQLCommand.ExecuteReader();
 

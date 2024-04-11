@@ -10,8 +10,8 @@
         <DataGrid x:Name="DogovorTable" AutoGenerateColumns="False" CanUserAddRows="false" IsReadOnly ="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Номер договора" Binding="{Binding dog_no}" />
-                <DataGridTextColumn Header="Дата договора" Binding="{Binding dog_date, StringFormat=\{0:dd.MM.yy\}}"/>
-                <DataGridTextColumn Header="Дата обновления" Binding="{Binding update_time, StringFormat=\{0:dd.MM.yy\}}"/>
+                <DataGridTextColumn Header="Дата договора" Binding="{Binding dog_date, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                <DataGridTextColumn Header="Дата обновления" Binding="{Binding update_time, StringFormat=\{0:dd.MM.yyyy\}}"/>
                 <DataGridCheckBoxColumn Header="Актуальность" Binding="{Binding actual}"/>
             </DataGrid.Columns>
         </DataGrid>
